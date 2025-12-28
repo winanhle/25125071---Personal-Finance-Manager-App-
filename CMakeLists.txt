@@ -13,22 +13,6 @@ project ("25125071 - Personal Finance Manager")
 include_directories("Include")
 
 # Add source to this project's executable.
-add_executable (CMakeTarget 
-    "source/main.cpp"  
-    "source/income.cpp" 
-    "source/expense.cpp"
-    "source/pfm_ui.cpp"
-    "source/pfm_core.cpp"
-    "source/pfm_utils.cpp"
-    "Include/income.h" 
-    "Include/expense.h"   
-    "Include/dynamic_array.h"  
-    "Include/pfm_state.h" 
-    "Include/pfm_utils.h" 
-    "Include/pfm_core.h" 
-    "Include/pfm_ui.h"
-    "Include/pfm_persist.h"
-)
 
 if (CMAKE_VERSION VERSION_GREATER 3.12)
   set_property(TARGET CMakeTarget PROPERTY CXX_STANDARD 20)

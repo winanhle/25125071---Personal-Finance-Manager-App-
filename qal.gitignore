@@ -1,0 +1,33 @@
+# ===== Build outputs =====
+out/
+build/
+.vs/
+cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+*.ninja
+*.ninja_deps
+*.ninja_log
+
+# ===== Visual Studio / VS Code =====
+.vs/
+.vscode/
+
+# ===== Compiled binaries =====
+*.exe
+*.dll
+*.lib
+*.pdb
+*.obj
+*.ilk
+*.idb
+
+# ===== OS junk =====
+.DS_Store
+Thumbs.db
+
+# ===== Optional: keep PDFs or not =====
+# If you don't want to upload your report pdf, uncomment:
+# *.pdf
